@@ -1,0 +1,22 @@
+public class PersonalInfo {
+    public static void main(String[] args) {
+        // Storing personal information in variables
+        String name = "Mohammad Isbath Halim";
+        String studentId = "E251012";
+        int age = 21;
+        String email = "isbath02@email.com";
+        String phone = "01727653399";
+        String address = "2 number road road New L Block";
+
+        System.out.println("==================================================");
+        System.out.println("              PERSONAL INFORMATION");
+        System.out.println("==================================================");
+        System.out.println("Name        : " + name);
+        System.out.println("Student ID  : " + studentId);
+        System.out.println("Age         : " + age + " years");
+        System.out.println("Email       : " + email);
+        System.out.println("Phone       : " + phone);
+        System.out.println("Address     : " + address);
+        System.out.println("==================================================");
+    }
+}
